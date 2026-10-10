@@ -1,0 +1,16 @@
+/* CARRITO URBANSTYLE */
+.urban-cart {
+    --bs-offcanvas-width: min(400px, 100vw);
+}
+
+/* CONTENEDOR DE PRODUCTOS */
+.urban-cart #cart-items-container {
+    min-height: 0;
+}
+
+.urban-cart-item-img {
+    width: 65px;
+    height: 65px;
+    object-fit: cover;
+    flex-shrink: 0;
+}
