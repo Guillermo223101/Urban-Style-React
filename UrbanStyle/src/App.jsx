@@ -2,7 +2,6 @@ import { useState, useEffect } from 'react'
 
 import Header from './components/Header/Header.jsx'
 import Carrito from './components/Carrito/Carrito.jsx'
-import Home from './pages/Inicio.jsx'
 import './App.css'
 import Inicio from './pages/Inicio.jsx'
 

@@ -3,29 +3,160 @@
         "id": "1",
         "nombre": "Polera Nike Essensial",
         "precio": 22990,
-        "imagen": "polera1",
+        "categoria": "poleras",
+        "imagen": "polera1.webp",
         "destacado": true
     },
     {
         "id": "2",
         "nombre": "Polera Jordan Sport",
         "precio": 26990,
-        "imagen": "polera2",
+        "categoria": "poleras",
+        "imagen": "polera2.png",
         "destacado": false
     },
     {
         "id": "3",
         "nombre": "Polera Nike Air",
         "precio": 27990,
-        "imagen": "polera3",
+        "categoria": "poleras",
+        "imagen": "polera3.webp",
         "destacado": false
     },
     {
         "id": "4",
         "nombre": "Polera Nike Pro Training",
         "precio": 60990,
-        "imagen": "polera4",
+        "categoria": "poleras",
+        "imagen": "polera4.webp",
+        "destacado": true
+    },
+    {
+        "id": "5",
+        "nombre": "Poleron Nike SB",
+        "precio": 74990,
+        "categoria": "polerones",
+        "imagen": "poleron1.webp",
+        "destacado": true
+    },
+    {
+        "id": "6",
+        "nombre": "Poleron Nike Club",
+        "precio": 66990,
+        "categoria": "polerones",
+        "imagen": "poleron2.webp",
+        "destacado": false
+    },
+    {
+        "id": "7",
+        "nombre": "Poleron Jordan Sport Fleece",
+        "precio": 96990,
+        "categoria": "polerones",
+        "imagen": "poleron3.webp",
+        "destacado": false
+    },
+    {
+        "id": "8",
+        "nombre": "Poleron Nike Tech",
+        "precio": 122990,
+        "categoria": "polerones",
+        "imagen": "poleron4.webp",
+        "destacado": true
+    },
+    {
+        "id": "9",
+        "nombre": "Zapatilla Nike Gato",
+        "precio": 63990,
+        "categoria": "zapatillas",
+        "imagen": "zapatillas1.jpg",
+        "destacado": false
+    },
+    {
+        "id": "10",
+        "nombre": "Zapatilla Nike Ava Rover",
+        "precio": 152990,
+        "categoria": "zapatillas",
+        "imagen": "zapatillas2.webp",
+        "destacado": true
+    },
+    {
+        "id": "11",
+        "nombre": "Zapatilla Nike Ava Rover",
+        "precio": 152990,
+        "categoria": "zapatillas",
+        "imagen": "zapatillas3.webp",
+        "destacado": false
+    },
+    {
+        "id": "12",
+        "nombre": "Zapatilla Nike 24.7",
+        "precio": 149990,
+        "categoria": "zapatillas",
+        "imagen": "zapatillas4.webp",
+        "destacado": true
+    },
+    {
+        "id": "13",
+        "nombre": "Pantalon Nike Club",
+        "precio": 59990,
+        "categoria": "pantalon",
+        "imagen": "pantalon1.webp",
+        "destacado": true
+    },
+    {
+        "id": "14",
+        "nombre": "Pantalon Jordan Flight",
+        "precio": 112990,
+        "categoria": "pantalon",
+        "imagen": "pantalon2.webp",
+        "destacado": false
+    },
+    {
+        "id": "15",
+        "nombre": "Pantalon Nike Club",
+        "precio": 56990,
+        "categoria": "pantalon",
+        "imagen": "pantalon3.webp",
+        "destacado": false
+    },
+    {
+        "id": "16",
+        "nombre": "Pantalon Nike Sportwear Club Fleece",
+        "precio": 27990,
+        "categoria": "pantalon",
+        "imagen": "pantalon4.webp",
+        "destacado": true
+    },
+    {
+        "id": "17",
+        "nombre": "Bolso Nike Brasilia 9.5",
+        "precio": 42990,
+        "categoria": "accesorio",
+        "imagen": "accesorio1.webp",
+        "destacado": true
+    },
+    {
+        "id": "18",
+        "nombre": "Bolso Nike Heritage",
+        "precio": 24990,
+        "categoria": "accesorio",
+        "imagen": "accesorio2.jpg",
+        "destacado": false
+    },
+    {
+        "id": "19",
+        "nombre": "Calceta Nike Everyday plus",
+        "precio": 14990,
+        "categoria": "accesorio",
+        "imagen": "accesorio3.png",
+        "destacado": false
+    },
+    {
+        "id": "20",
+        "nombre": "Calceta Nike Everyday Elevated",
+        "precio": 20990,
+        "categoria": "accesorio",
+        "imagen": "accesorio4.webp",
         "destacado": true
     }
-
 ]

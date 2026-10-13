@@ -34,7 +34,7 @@ export default function Categorias() {
             <div className='container'>
                 <div className='section-heading'>
                     <p className='section-label'>EXPLORAR</p>
-                    <h2>CAREGORIAS</h2>
+                    <h2>CATEGORIAS</h2>
                     <p>Encuentra tu estilo en un solo lugar.</p>
                 </div>
 

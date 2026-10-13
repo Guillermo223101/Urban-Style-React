@@ -1,0 +1,32 @@
+.destacados-carrusel {
+    display: flex;
+    gap: 1rem;
+
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+
+    padding-bottom: 1rem;
+}
+
+.destacados-item {
+    flex: 0 0 calc((100% - 3rem) / 4);
+    min-width: 0;
+    scroll-snap-align: start;
+}
+
+/* TABLET */
+
+@media (max-width: 991.98px) {
+    .destacados-item {
+        flex-basis: calc((100% - 1rem) / 2);
+    }
+}
+
+/* CELULARES */
+
+@media (max-width: 575.98px) {
+    .destacados-item {
+        flex-basis: 80%;
+    }
+}

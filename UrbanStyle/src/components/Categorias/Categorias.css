@@ -1,31 +1,3 @@
-.section-heading {
-    margin-bottom: 40px;
-}
-
-.section-heading h2 {
-    font-size: 48px;
-    letter-spacing: 1px;
-    margin: 0 0 5px;
-}
-
-.section-heading p:not(.section-label) {
-    color: #666;
-    font-size: 1rem;
-}
-
-
-.section-heading-light p:not(.section-label) {
-    color: #aaa;
-}
-
-
-.section-label {
-    font-size: 14px;
-    font-weight: 800;
-    letter-spacing: 3px;
-    margin-bottom: 7px;
-}
-
 .category-card {
     display: block;
     height: 360px;

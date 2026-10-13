@@ -42,7 +42,7 @@ function Carrito({carrito, cambiarCantidad, eliminarProducto}) {
                             {/* CANTIDADES */}
                             <div className="d-flex align-items-center mt-2">
                                 <button type="button" className="btn btn-sm btn-outline-dark" 
-                                        onClick={() => cambiarCantidad(producto.id, -1)} aria-label="Dis`minuir cantidad">-</button>
+                                        onClick={() => cambiarCantidad(producto.id, -1)} aria-label="Disminuir cantidad">-</button>
                                 <span className="mx-3 fw-bold">{producto.cantidad}</span>
                                 <button type="button" className="btn btn-sm btn-outline-dark" 
                                         onClick={() => cambiarCantidad(producto.id, 1)} aria-label="Aumentar cantidad">+</button>

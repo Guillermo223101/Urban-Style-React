@@ -14,3 +14,21 @@
     object-fit: cover;
     flex-shrink: 0;
 }
+
+/* CONTADOR CARRITO */
+.cart-counter {
+    position: absolute;
+    top: -5px;
+    right: -10px;
+    background-color: white;
+    color: black;
+    font-size: 0.65rem;
+    font-weight: 800;
+    border-radius: 50%;
+    width: 18px;
+    height: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: normal; /* Evita que el número se ponga en cursiva por estar dentro de la etiqueta <i> */
+}
