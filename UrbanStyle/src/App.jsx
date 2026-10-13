@@ -1,22 +1,22 @@
 import { useState, useEffect } from 'react'
 
 import Header from './components/Header/Header.jsx'
-import Carrusel from './components/Carrusel/Carrusel.jsx'
 import Carrito from './components/Carrito/Carrito.jsx'
-
+import Home from './pages/Inicio.jsx'
 import './App.css'
+import Inicio from './pages/Inicio.jsx'
 
 function cargarCarrito(){
   try {
-    const datos = JSON.parse(localStorage.getItem('carritoUrbanStyle') || []);
-    return Array.isArray(datos) ? datos : [];
+    const datos = JSON.parse(localStorage.getItem('carritoUrbanStyle') || '[]');
+  return Array.isArray(datos) ? datos : [];
   } catch{
-    return [];
+  return [];
   }
 }
 
 function App() {
-  const [carrito, setCarrito] = useState(cargarCarrito());
+  const [carrito, setCarrito] = useState(cargarCarrito);
 
   useEffect(() => { localStorage.setItem('carritoUrbanStyle', JSON.stringify(carrito)); }, [carrito]);
 
@@ -46,25 +46,13 @@ function App() {
   return (
     <>
         <Header cantidadCarrito={cantidadCarrito} />
-        <Carrusel />
-        <div>
-            <button
-                    className="btn btn-outline-dark"
-                    onClick={() => agregarProducto({
-                        id: 'prod-1',
-                        nombre: 'Polera Nike Essensial',
-                        precio: 22990,
-                        img: ''
-                    })}
-                >
-                    Probar: Agregar polera al carrito
-                </button>
-        </div>
         <Carrito 
           carrito={carrito}  
           cambiarCantidad={cambiarCantidad}
-          eliminarProducto={eliminarProducto}
-        />
+          eliminarProducto={eliminarProducto}/>
+        <main>
+          <Inicio onAgregar={agregarProducto}/>
+        </main>
     </> 
   )
 }

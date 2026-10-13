@@ -1,0 +1,81 @@
+.section-heading {
+    margin-bottom: 40px;
+}
+
+.section-heading h2 {
+    font-size: 48px;
+    letter-spacing: 1px;
+    margin: 0 0 5px;
+}
+
+.section-heading p:not(.section-label) {
+    color: #666;
+    font-size: 1rem;
+}
+
+
+.section-heading-light p:not(.section-label) {
+    color: #aaa;
+}
+
+
+.section-label {
+    font-size: 14px;
+    font-weight: 800;
+    letter-spacing: 3px;
+    margin-bottom: 7px;
+}
+
+.category-card {
+    display: block;
+    height: 360px;
+    position: relative;
+    overflow: hidden;
+    color: #fff;
+    border-radius: 5%;
+}
+
+.category-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+.category-card::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background:
+        linear-gradient(
+            transparent 25%,
+            rgba(0,0,0,0.8)
+        );
+
+}
+
+.category-card:hover img {
+    transform: scale(1.06);
+}
+
+.category-overlay {
+    position: relative;
+    z-index: 2;
+    bottom: 70px;
+    left: 25px;
+}
+
+.category-overlay h4 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    line-height: 1;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.category-overlay span {
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    cursor: pointer;
+}

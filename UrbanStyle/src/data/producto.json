@@ -1,0 +1,31 @@
+[
+    {
+        "id": "1",
+        "nombre": "Polera Nike Essensial",
+        "precio": 22990,
+        "imagen": "polera1",
+        "destacado": true
+    },
+    {
+        "id": "2",
+        "nombre": "Polera Jordan Sport",
+        "precio": 26990,
+        "imagen": "polera2",
+        "destacado": false
+    },
+    {
+        "id": "3",
+        "nombre": "Polera Nike Air",
+        "precio": 27990,
+        "imagen": "polera3",
+        "destacado": false
+    },
+    {
+        "id": "4",
+        "nombre": "Polera Nike Pro Training",
+        "precio": 60990,
+        "imagen": "polera4",
+        "destacado": true
+    }
+
+]

@@ -14,7 +14,7 @@ function Carrito({carrito, cambiarCantidad, eliminarProducto}) {
     };
 
     return(
-        <div className="offcanvas offcanvas-end urban-cart" tabindex="-1" id="carritoOffcanvas" aria-labelledby="carritoOffcanvasLabel">
+        <div className="offcanvas offcanvas-end urban-cart" tabindex={-1} id="carritoOffcanvas" aria-labelledby="carritoOffcanvasLabel">
         <div className="offcanvas-header bg-black text-white">
             <h5 className="offcanvas-title fw-bold" id="carritoOffcanvasLabel"><i className="bi bi-cart3 me-2"></i>Tu Carrito
             </h5>
@@ -28,8 +28,8 @@ function Carrito({carrito, cambiarCantidad, eliminarProducto}) {
                     <p className="text-center text-muted mt-5">Tu carrito está vacío.</p>
                 ) : (carrito.map(producto =>(
                     <div key={producto.id} className="d-flex align-items-center mb-3 border-bottom pb-3">
-                        {producto.img ? (
-                            <img src={producto.img} alt={producto.nombre} className="urban-cart-item-img me-3 border"/>
+                        {producto.imagen ? (
+                            <img src={producto.imagen} alt={producto.nombre} className="urban-cart-item-img me-3 border"/>
                         ) : (
                             <div className="urban-cart-item-img me-3 border">
                                 <i className="bi bi-bag"></i>
