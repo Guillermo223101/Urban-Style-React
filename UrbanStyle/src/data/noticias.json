@@ -1,0 +1,66 @@
+[
+    {
+        "id": 1,
+        "nombre": "TENDENCIAS",
+        "imagen": "blog1.jpg",
+        "titulo": "Tendencias streetwear que marcarán la temporada",
+        "descripcion": "Descubre los estilos y colores de esta temporada.",
+        "inicio": true
+    },
+    {
+        "id": 2,
+        "nombre": "GUIA",
+        "imagen": "blog2.jpg",
+        "titulo": "Guía de tallas y calce perfecto para comprar ropa online",
+        "descripcion": "Evita errores al comprar. Te ayudamos a elegir la talla ideal según tu tipo de cuerpo y prenda.",
+        "inicio": true
+    },
+    {
+        "id": 3,
+        "nombre": "PATTA",
+        "imagen": "blog3.jpg",
+        "titulo": "Patta: La marca streetweare de culto que debes conocer",
+        "descripcion": "Hoy en día, Patta es una de las pocas marcas de ropa urbana de propiedad negra venerada internacionalmente.",
+        "inicio": false
+    },
+    {
+        "id": 4,
+        "nombre": "ZAPATILLAS",
+        "imagen": "blog4.jpg",
+        "titulo": "3 marcas de zapatillas que seran tendencias en 2027",
+        "descripcion": "La tendencia Y2K en zapatillas, inspirada en la moda de principios de los 2000.",
+        "inicio": false
+    },
+    {
+        "id": 5,
+        "nombre": "CARHARTT",
+        "imagen": "blog5.jpg",
+        "titulo": "Ropa carhartt wip durabilidad y estilo",
+        "descripcion": "La sudadera Carhartt, con o sin capucha, es la prenda esencial para cualquier guardarropa..",
+        "inicio": false
+    },
+    {
+        "id": 6,
+        "nombre": "STUSSY",
+        "imagen": "blog6.jpg",
+        "titulo": "Sudaderas stussy comodidad y estilo unico",
+        "descripcion": "Si estás buscando la combinación perfecta de estilo y confort, estás en el lugar indicado.",
+        "inicio": false
+    },
+    {
+        "id": 7,
+        "nombre": "PARRA",
+        "imagen": "blog7.jpg",
+        "titulo": "by PARRA, una marca de ropa streetwear muy especial",
+        "descripcion": "Ropa streetwear europea, fundada en Amsterdam por Pieter ‘Parra’ Janssen, artista, diseñador y skater profesional.",
+        "inicio": false
+    },
+    {
+        "id": 8,
+        "nombre": "ARIES",
+        "imagen": "blog8.jpg",
+        "titulo": "Aries Arise. Streetwear de lujo",
+        "descripcion": "Aries es una marca de ropa streetwear unisex de lujo, fundada en el año 2012 por la diseñadora Sofía Prantera.",
+        "inicio": false
+    }
+]

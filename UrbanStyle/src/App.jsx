@@ -58,6 +58,7 @@ function App() {
           <Routes>
               <Route path='/' element={<Inicio onAgregar={agregarProducto} />} />
               <Route path='/productos' element={<Productos onAgregar={agregarProducto} />} />
+              <Route path='/blogPage'/>
           </Routes>
         </main>
         <Footer />

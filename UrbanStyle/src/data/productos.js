@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import datos from './producto.json';
 
 const imagenes = import.meta.glob(

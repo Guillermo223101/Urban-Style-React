@@ -28,7 +28,7 @@ function Header({cantidadCarrito}) {
                                 <li><Link className="dropdown-item" to='/productos?categoria=accesorio'>Accesorios</Link></li>
                             </ul>
                         </li>
-                        <li className="nav-item"><a className="nav-link" href="blog.html">Blog</a></li>
+                        <li className="nav-item"><Link className="nav-link" to="/blogPage">Blog</Link></li>
                         <li className="nav-item"><a className="nav-link" href="login.html">Registrarse</a></li>
                     </ul>
                     <div className="d-flex align-items-center gap-4 nav-icons">
