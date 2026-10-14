@@ -35,7 +35,7 @@
         "id": "5",
         "nombre": "Poleron Nike SB",
         "precio": 74990,
-        "categoria": "polerones",
+        "categoria": "poleron",
         "imagen": "poleron1.webp",
         "destacado": true
     },
@@ -43,7 +43,7 @@
         "id": "6",
         "nombre": "Poleron Nike Club",
         "precio": 66990,
-        "categoria": "polerones",
+        "categoria": "poleron",
         "imagen": "poleron2.webp",
         "destacado": false
     },
@@ -51,7 +51,7 @@
         "id": "7",
         "nombre": "Poleron Jordan Sport Fleece",
         "precio": 96990,
-        "categoria": "polerones",
+        "categoria": "poleron",
         "imagen": "poleron3.webp",
         "destacado": false
     },
@@ -59,7 +59,7 @@
         "id": "8",
         "nombre": "Poleron Nike Tech",
         "precio": 122990,
-        "categoria": "polerones",
+        "categoria": "poleron",
         "imagen": "poleron4.webp",
         "destacado": true
     },

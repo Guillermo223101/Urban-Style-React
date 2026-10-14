@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 import './Carrusel.css';
 
 function Carrusel() {
@@ -22,10 +24,10 @@ function Carrusel() {
                                     <p className="hero-description">Ropa y zapatillas para quienes viven la ciudad a su
                                         manera</p>
                                     <div className="hero-button">
-                                        <a href="categoria.html" className="btn btn-light btn-lg">VER ROPA<i
-                                                className="bi bi-arrow-right"></i></a>
-                                        <a href="categoria.html" className="btn btn-outline-light btn-lg">VER
-                                            CALZADO<i className="bi bi-arrow-right"></i></a>
+                                        <Link to='/productos?categoria=poleras,pantalon,poleron' className="btn btn-light btn-lg">VER ROPA<i
+                                                className="bi bi-arrow-right"></i></Link>
+                                        <Link to='/productos?categoria=accesorio' className="btn btn-outline-light btn-lg">VER
+                                            ACCESORIOS<i className="bi bi-arrow-right"></i></Link>
                                     </div>
                                 </div>
                             </div>
@@ -39,8 +41,8 @@ function Carrusel() {
                                     <h2>DEFINE<span> TU ESTILO</span></h2>
                                     <p className="hero-description">Diseños unicos para destacar en cualquier lugar</p>
                                     <div>
-                                        <a href="categoria.html" className="btn btn-light btn-lg">EXPLORAR COLECCION<i
-                                                className="bi bi-arrow-right"></i></a>
+                                        <Link to='/productos' className="btn btn-light btn-lg">EXPLORAR COLECCION<i
+                                                className="bi bi-arrow-right"></i></Link>
                                     </div>
                                 </div>
                             </div>
@@ -54,8 +56,8 @@ function Carrusel() {
                                     <h2>TU LO ERES TODO</h2>
                                     <p className="hero-description">Zapatillas seleccionadas para tu outfit</p>
                                     <div>
-                                        <a href="categoria.html" className="btn btn-light btn-lg">VER CALZADO <i
-                                                className="bi bi-arrow-right"></i></a>
+                                        <Link to='/productos?categoria=zapatillas' className="btn btn-light btn-lg">VER CALZADO <i
+                                                className="bi bi-arrow-right"></i></Link>
                                     </div>
                                 </div>
                             </div>

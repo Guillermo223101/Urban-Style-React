@@ -1,9 +1,14 @@
 import { useState, useEffect } from 'react'
+import { Routes, Route } from 'react-router-dom'
 
 import Header from './components/Header/Header.jsx'
 import Carrito from './components/Carrito/Carrito.jsx'
+import Footer from './components/Footer/Footer.jsx'
+
 import './App.css'
+
 import Inicio from './pages/Inicio.jsx'
+import Productos from './pages/Productos.jsx'
 
 function cargarCarrito(){
   try {
@@ -50,8 +55,12 @@ function App() {
           cambiarCantidad={cambiarCantidad}
           eliminarProducto={eliminarProducto}/>
         <main>
-          <Inicio onAgregar={agregarProducto}/>
+          <Routes>
+              <Route path='/' element={<Inicio onAgregar={agregarProducto} />} />
+              <Route path='/productos' element={<Productos onAgregar={agregarProducto} />} />
+          </Routes>
         </main>
+        <Footer />
     </> 
   )
 }
