@@ -23,7 +23,7 @@ function Carrusel() {
                                     <h1>URBAN<span> STYLE</span></h1>
                                     <p className="hero-description">Ropa y zapatillas para quienes viven la ciudad a su
                                         manera</p>
-                                    <div className="hero-button">
+                                    <div className="hero-button d-flex flex-wrap gap-2">
                                         <Link to='/productos?categoria=poleras,pantalon,poleron' className="btn btn-light btn-lg">VER ROPA<i
                                                 className="bi bi-arrow-right"></i></Link>
                                         <Link to='/productos?categoria=accesorio' className="btn btn-outline-light btn-lg">VER

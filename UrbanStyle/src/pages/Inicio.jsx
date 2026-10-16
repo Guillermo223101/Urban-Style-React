@@ -12,9 +12,14 @@ export default function Inicio({ onAgregar }) {
             <Destacados onAgregar={onAgregar}/>
             <section className="py-5 bg-dark-custom text-white">
                 <div className="container-xl">
+                    <div className="section-heading mb-4">
+                        <h2 className="fw-bold m-0">BLOG / NOTICIAS / UBICACION</h2>
+                        <p className="text-secondary small">Tips, tendencias y todo lo que necesitas saber del mundo
+                            streetwear.</p>
+                    </div>
                     <div className="row g-4 align-items-stretch">
                         <div className="col-12 col-md-7">
-                            <Blog />
+                            <Blog soloInicio/>
                         </div>
                         <div className="col-12 col-md-5 map">
                             <Mapa />

@@ -1,23 +1,21 @@
-import blog from "../../data/noticia.js"
+import blogs from "../../data/noticia.js"
 
 import './Blog.css'
 
-export default function Blog(){
-    const enInicio = blog
-        .filter(producto => producto.inicio === true)
-        .slice(0, 2);
+export default function Blog({ soloInicio = false}){
+    const visible = soloInicio
+        ? blogs.filter(blog => blog.inicio === true)
+        : blogs;
 
-
+    
     return(
         <section id="blog-registro">
-            <div className="section-heading mb-4">
-                <h2 className="fw-bold m-0">BLOG / NOTICIAS / UBICACION</h2>
-                <p className="text-secondary small">Tips, tendencias y todo lo que necesitas saber del mundo
-                    streetwear.</p>
-            </div>
             <div className="row g-3">
-                {enInicio.map((bloque) => (
-                    <div className="col-6" key={bloque.id}>
+                {visible.map((bloque) => (
+                    <div className={
+                            soloInicio
+                                ? "col-12 col-sm-6"
+                                : "col-12 col-sm-6 col-lg-4"} key={bloque.id}>
                         <article className="blog-card h-100">
                                 <div className="blog-img">
                                     <img src={bloque.imagen} alt={bloque.nombre}/>

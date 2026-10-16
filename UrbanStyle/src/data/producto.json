@@ -5,7 +5,9 @@
         "precio": 22990,
         "categoria": "poleras",
         "imagen": "polera1.webp",
-        "destacado": true
+        "destacado": true,
+        "tallas": ["XS","S","M","L","XL"],
+        "descripcion": "Atrae miradas, no rayos. Con tecnología Dri-FIT y protección UPF 40, esta camiseta de estilo deportivo te mantendrá seco, cómodo y protegido para que puedas jugar o relajarte todo el día."
     },
     {
         "id": "2",
@@ -13,7 +15,9 @@
         "precio": 26990,
         "categoria": "poleras",
         "imagen": "polera2.png",
-        "destacado": false
+        "destacado": false,
+        "tallas": ["XS","S","M","L","XL"],
+        "descripcion": "A veces, lo único que necesitas es una polera sencilla."
     },
     {
         "id": "3",
@@ -21,7 +25,9 @@
         "precio": 27990,
         "categoria": "poleras",
         "imagen": "polera3.webp",
-        "destacado": false
+        "destacado": false,
+        "tallas": ["XS","S","M","L","XL"],
+        "descripcion": "Esta polera Nike SB de manga larga presenta el icónico Swoosh con un relleno gráfico que le da un toque distintivo al clásico logo."
     },
     {
         "id": "4",
@@ -29,7 +35,9 @@
         "precio": 60990,
         "categoria": "poleras",
         "imagen": "polera4.webp",
-        "destacado": true
+        "destacado": true,
+        "tallas": ["XS","S","M","L","XL"],
+        "descripcion": "Entrena con facilidad con esta polera Nike Pro, que combina la tecnología Dri-FIT que absorbe el sudor con una tela suave y transpirable."
     },
     {
         "id": "5",
@@ -37,7 +45,9 @@
         "precio": 74990,
         "categoria": "poleron",
         "imagen": "poleron1.webp",
-        "destacado": true
+        "destacado": true,
+        "tallas": ["XS","S","M","L","XL"],
+        "descripcion": "Estilo deportivo reinventado para el uso diario."
     },
     {
         "id": "6",
@@ -45,7 +55,9 @@
         "precio": 66990,
         "categoria": "poleron",
         "imagen": "poleron2.webp",
-        "destacado": false
+        "destacado": false,
+        "tallas": ["XS","S","M","L","XL"],
+        "descripcion": "Breve descripcion del poleron nike club"
     },
     {
         "id": "7",
@@ -53,7 +65,9 @@
         "precio": 96990,
         "categoria": "poleron",
         "imagen": "poleron3.webp",
-        "destacado": false
+        "destacado": false,
+        "tallas": ["XS","S","M","L","XL"],
+        "descripcion": "Breve descripcion del poleron jordan sport fleece"
     },
     {
         "id": "8",
@@ -61,7 +75,9 @@
         "precio": 122990,
         "categoria": "poleron",
         "imagen": "poleron4.webp",
-        "destacado": true
+        "destacado": true,
+        "tallas": ["XS","S","M","L","XL"],
+        "descripcion": "Breve descripcion del poleron nike tech"
     },
     {
         "id": "9",
@@ -69,7 +85,9 @@
         "precio": 63990,
         "categoria": "zapatillas",
         "imagen": "zapatillas1.jpg",
-        "destacado": false
+        "destacado": false,
+        "tallas": ["39EUR","40EUR","41EUR","42EUR","43EUR"],
+        "descripcion": "Breve descripcion de las zapatillas nike gato"
     },
     {
         "id": "10",
@@ -77,7 +95,9 @@
         "precio": 152990,
         "categoria": "zapatillas",
         "imagen": "zapatillas2.webp",
-        "destacado": true
+        "destacado": true,
+        "tallas": ["39EUR","40EUR","41EUR","42EUR","43EUR"],
+        "descripcion": "Breve descripcion de las zapatillas nike ava rover"
     },
     {
         "id": "11",
@@ -85,7 +105,9 @@
         "precio": 152990,
         "categoria": "zapatillas",
         "imagen": "zapatillas3.webp",
-        "destacado": false
+        "destacado": false,
+        "tallas": ["39EUR","40EUR","41EUR","42EUR","43EUR"],
+        "descripcion": "Breve descripcion de las zapatillas nike ava rover"
     },
     {
         "id": "12",
@@ -93,7 +115,9 @@
         "precio": 149990,
         "categoria": "zapatillas",
         "imagen": "zapatillas4.webp",
-        "destacado": true
+        "destacado": true,
+        "tallas": ["39EUR","40EUR","41EUR","42EUR","43EUR"],
+        "descripcion": "Breve descripcion de las zapatillas nike 24.7"
     },
     {
         "id": "13",
@@ -101,7 +125,9 @@
         "precio": 59990,
         "categoria": "pantalon",
         "imagen": "pantalon1.webp",
-        "destacado": true
+        "destacado": true,
+        "tallas": ["XS","S","M","L","XL"],
+        "descripcion": "Breve descripcion del pantalon nike club"
     },
     {
         "id": "14",
@@ -109,7 +135,9 @@
         "precio": 112990,
         "categoria": "pantalon",
         "imagen": "pantalon2.webp",
-        "destacado": false
+        "destacado": false,
+        "tallas": ["XS","S","M","L","XL"],
+        "descripcion": "Breve descripcion del pantalon jordan flight"
     },
     {
         "id": "15",
@@ -117,7 +145,9 @@
         "precio": 56990,
         "categoria": "pantalon",
         "imagen": "pantalon3.webp",
-        "destacado": false
+        "destacado": false,
+        "tallas": ["XS","S","M","L","XL"],
+        "descripcion": "Breve descripcion del pantalon nike club"
     },
     {
         "id": "16",
@@ -125,7 +155,9 @@
         "precio": 27990,
         "categoria": "pantalon",
         "imagen": "pantalon4.webp",
-        "destacado": true
+        "destacado": true,
+        "tallas": ["XS","S","M","L","XL"],
+        "descripcion": "Breve descripcion del pantalon nike sport club fleece"
     },
     {
         "id": "17",
@@ -133,7 +165,9 @@
         "precio": 42990,
         "categoria": "accesorio",
         "imagen": "accesorio1.webp",
-        "destacado": true
+        "destacado": true,
+        "tallas": ["XS","S","M","L","XL"],
+        "descripcion": "Breve descripcion del bolsp nike brasilia 9.5"
     },
     {
         "id": "18",
@@ -141,7 +175,9 @@
         "precio": 24990,
         "categoria": "accesorio",
         "imagen": "accesorio2.jpg",
-        "destacado": false
+        "destacado": false,
+        "tallas": ["XS","S","M","L","XL"],
+        "descripcion": "Breve descripcion del bolso nike heritage"
     },
     {
         "id": "19",
@@ -149,7 +185,9 @@
         "precio": 14990,
         "categoria": "accesorio",
         "imagen": "accesorio3.png",
-        "destacado": false
+        "destacado": false,
+        "tallas": ["XS","S","M","L","XL"],
+        "descripcion": "breve descripcion de las calcetas nike everyday plus"
     },
     {
         "id": "20",
@@ -157,6 +195,8 @@
         "precio": 20990,
         "categoria": "accesorio",
         "imagen": "accesorio4.webp",
-        "destacado": true
+        "destacado": true,
+        "tallas": ["XS","S","M","L","XL"],
+        "descripcion": "breve descripcion de las calcetas nike everyday elevated"
     }
 ]

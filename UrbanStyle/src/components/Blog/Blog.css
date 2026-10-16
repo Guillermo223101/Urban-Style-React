@@ -74,3 +74,9 @@
 .leer-mas:hover {
     color: #4338ca;
 }
+
+@media (max-width: 575.98px) {
+    .blog-img{
+        height: 220px;
+    }
+}

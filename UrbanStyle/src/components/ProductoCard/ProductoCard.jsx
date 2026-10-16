@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 import "./ProductoCard.css";
 
 export default function ProductoCard({ producto, onAgregar }) {
@@ -9,10 +11,13 @@ export default function ProductoCard({ producto, onAgregar }) {
     return (
         <div className="card product-card h-100 border-0 shadow-sm">
             <div className="position-relative text-center p-3">
-                <img 
-                    src={producto.imagen} 
-                    className="card-img-top img-fluid" 
-                    alt={producto.nombre} />
+                <Link to={`/productos/${producto.id}`} >
+                    <img 
+                        src={producto.imagen}
+                        className="card-img-top img-fluid" 
+                        alt={producto.nombre} 
+                    />
+                </Link>
                 <span className="badge bg-light text-dark border mb-1 text-wrap text-start">Retiro en 3 horas</span>
             </div>
             <div className="card-body d-flex flex-column px-3 pt-0">
@@ -20,7 +25,9 @@ export default function ProductoCard({ producto, onAgregar }) {
                     <p className="text-success fw-bold" style={{ fontSize: '0.75rem' }}>Llega el lunes RM</p>
                 </div>
                 <h5 className="product-title mt-1">
-                    {producto.nombre}
+                    <Link to={`/productos/${producto.id}`} className="text-decoration-none text-reset">
+                        {producto.nombre}
+                    </Link>
                 </h5>
                 <div className="mt-auto pt-2 d-flex justify-content-between align-items-center gap-2">
                     <span className="product-price">

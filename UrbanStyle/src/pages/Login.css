@@ -1,0 +1,44 @@
+.login-background {
+    background-image: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)), url(../assets/Imagenes/Carrusel/slide1.jpg);
+    min-height: 100vh; /* Asegura que cubra la pantalla entera si hay poco contenido */
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.login-volver{
+    display: inline-flex;
+    margin-left: 220px;
+    align-items: center;
+    gap: 12px;
+    padding: 8px 20px 8px 8px;
+    background-color: rgba(231, 227, 227, 0.336);
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    border-radius: 50px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.login-volver-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 34px;
+    height: 34px;
+}
+
+.login-volver:hover {
+    background-color: rgba(255, 255, 255, 0.15);
+    border-color: white;
+    color: white;
+    transform: translateX(-4px);
+}
+
+.login-volver:focus-visible {
+    outline: 2px solid white;
+    outline-offset: 4px;
+}

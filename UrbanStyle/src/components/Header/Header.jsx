@@ -29,12 +29,12 @@ function Header({cantidadCarrito}) {
                             </ul>
                         </li>
                         <li className="nav-item"><Link className="nav-link" to="/blogPage">Blog</Link></li>
-                        <li className="nav-item"><a className="nav-link" href="login.html">Registrarse</a></li>
+                        <li className="nav-item"><Link className="nav-link" to="/registro">Registrarse</Link></li>
                     </ul>
                     <div className="d-flex align-items-center gap-4 nav-icons">
                         <button className="icon-button" type="button" aria-label="Buscar productos"><i
                                 className="bi bi-search"></i></button>
-                        <a href="#" className="icon-button" aria-label="Mi cuenta"><i className="bi bi-person"></i></a>
+                        <Link to="/login" className="icon-button" aria-label="Mi cuenta"><i className="bi bi-person"></i></Link>
                         <button className="icon-button cart-button" type="button" aria-label="Carrito de compras"
                             data-bs-toggle="offcanvas" data-bs-target="#carritoOffcanvas">
                             <i className="bi bi-cart2"></i>

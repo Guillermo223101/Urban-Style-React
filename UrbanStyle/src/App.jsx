@@ -9,6 +9,10 @@ import './App.css'
 
 import Inicio from './pages/Inicio.jsx'
 import Productos from './pages/Productos.jsx'
+import BlogPage from './pages/BlogPage.jsx'
+import DetalleProducto from './pages/DetalleProductos.jsx'
+import Registro from './pages/Registro.jsx'
+import Login from './pages/Login.jsx'
 
 function cargarCarrito(){
   try {
@@ -58,7 +62,10 @@ function App() {
           <Routes>
               <Route path='/' element={<Inicio onAgregar={agregarProducto} />} />
               <Route path='/productos' element={<Productos onAgregar={agregarProducto} />} />
-              <Route path='/blogPage'/>
+              <Route path='/blogPage' element={<BlogPage />}/>
+              <Route path='/productos/:id' element={<DetalleProducto onAgregar={agregarProducto} />}/>
+              <Route path='/registro' element={<Registro />} />
+              <Route path='/login' element={<Login />} />
           </Routes>
         </main>
         <Footer />

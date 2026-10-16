@@ -1,0 +1,55 @@
+.registro-background {
+    background-image: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)), url(../assets/Imagenes/Carrusel/slide1.jpg);
+    min-height: 100vh; /* Asegura que cubra la pantalla entera si hay poco contenido */
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.text-primary-custom {
+    color: #1a1a1c; /* Negro/Azul muy oscuro para contrastar en la caja clara */
+}
+
+.info-box {
+    transition: transform 0.3s ease;
+}
+
+.info-box:hover {
+    transform: translateY(-3px);
+}
+
+.registro-volver{
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    padding: 8px 20px 8px 8px;
+    background-color: rgba(231, 227, 227, 0.336);
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    border-radius: 50px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.registro-volver-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 34px;
+    height: 34px;
+}
+
+.registro-volver:hover {
+    background-color: rgba(255, 255, 255, 0.15);
+    border-color: white;
+    color: white;
+    transform: translateX(-4px);
+}
+
+.registro-volver:focus-visible {
+    outline: 2px solid white;
+    outline-offset: 4px;
+}
