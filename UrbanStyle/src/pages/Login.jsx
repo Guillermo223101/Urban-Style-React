@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { useState } from "react";
 
 import{
@@ -9,6 +9,8 @@ import{
 import './Login.css'
 
 export default function Login() {
+    const navegar = useNavigate();
+
     const [datos, setDatos] = useState({
         correo: '',
         password: ''
@@ -51,7 +53,20 @@ export default function Login() {
             return;
         }
 
+        if(esValido) {
+            const esAdmin =
+                datos.correo.trim().toLowerCase() === 'admin@adminstyle.cl' &&
+                datos.password === 'Admin123';
+            
+            if (esAdmin) {
+                navegar('/admin');
+                return
+            }
+        }
+
         setMensaje('Formulaio validado con exito!.')
+
+        
     }
 
     return(

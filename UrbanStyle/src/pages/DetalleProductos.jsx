@@ -39,7 +39,7 @@ export default function DetalleProductos({onAgregar}){
     
     return(
         <section className="container py-5">
-            <div className="row g-4 alingn-item-start">
+            <div className="row g-4 align-items-start">
                 <div className="col-12 col-lg-7">
                     <div className="bg-light rounded-3 p-4 text-center">
                         <img 

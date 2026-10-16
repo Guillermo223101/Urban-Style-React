@@ -13,6 +13,7 @@ import BlogPage from './pages/BlogPage.jsx'
 import DetalleProducto from './pages/DetalleProductos.jsx'
 import Registro from './pages/Registro.jsx'
 import Login from './pages/Login.jsx'
+import Admin from './pages/Admin.jsx'
 
 function cargarCarrito(){
   try {
@@ -66,6 +67,7 @@ function App() {
               <Route path='/productos/:id' element={<DetalleProducto onAgregar={agregarProducto} />}/>
               <Route path='/registro' element={<Registro />} />
               <Route path='/login' element={<Login />} />
+              <Route path='/admin' element={<Admin/>}/>
           </Routes>
         </main>
         <Footer />

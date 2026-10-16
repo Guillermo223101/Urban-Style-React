@@ -1,0 +1,31 @@
+.admin-layout {
+    min-height: 100vh;
+}
+
+.admin-sidebar {
+    background-color: #121212;
+    color: white;
+}
+
+.admin-content {
+    background-color: #f4f6f9;
+    color: #171717;
+    min-height: 100vh;
+}
+
+.admin-sidebar button {
+    transition: all 0.2s ease;
+}
+
+.admin-sidebar button:hover {
+    transform: translateX(4px);
+}
+
+.admin-content .card {
+    border-radius: 12px;
+}
+
+.botones{
+    font-size: 22px;
+    
+}
